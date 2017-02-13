@@ -79,6 +79,16 @@ print(numeric.isnumeric()) #true 如果字符串中只包含数字字符，则�
 space=" "
 print(space.isspace()) #true 如果字符串中只包含空格，则返回 True，否则返回 False.
 
+
+#字符串与字节相互转换
+str = 'you 你'
+bs = b'\xc4\xe3'
+print('utf-8 encode:', str.encode('utf-8'))
+print('gbk encode:', str.encode('gbk'))
+print('gb2312 encode:', str.encode('gb2312'))
+
+print(bs.decode('gb2312'))
+
 # istitle() 返回"标题化"的字符串,就是说所有单词都是以大写开始，其余字母均为小写(见 istitle())
 # isupper()
 # join(seq)
