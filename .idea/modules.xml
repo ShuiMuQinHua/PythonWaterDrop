@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../EasyPass/.idea/EasyPass.iml" filepath="$PROJECT_DIR$/../EasyPass/.idea/EasyPass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../python_hadoop/.idea/python_hadoop.iml" filepath="$PROJECT_DIR$/../python_hadoop/.idea/python_hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python_learning.iml" filepath="$PROJECT_DIR$/.idea/python_learning.iml" />
+    </modules>
+  </component>
+</project>
